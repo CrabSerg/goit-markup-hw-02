@@ -82,6 +82,7 @@ color: var(--grey-color);
 .mailtel:focus {
 color: var(--accent-color);
 }
+
 /* Кнопка */
 .btn-hero {
 font-family: inherit;
@@ -122,6 +123,10 @@ background-color: var(--bg-color-photo);
 .btn-port:focus {
 color: var(--white-bg-color);
 background-color: var(--accent-color);
+}
+/* Кнопка ефект текущего сайта */
+.curent {
+    color: var(--accent-color);
 }
 
 /* Нейм компаний (в портфолио) */
