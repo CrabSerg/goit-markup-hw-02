@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
+    <!-- Шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
-        <a class="nav-logo" href="/">Web<span class="span-web">Studio</span></a>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="/index.html">Студия</a></li>
-          <li class="nav-item"><a href="">Портфолио</a></li>
-          <li class="nav-item"><a href="">Контакты</a></li>
+        <a class="logo link" href="/"
+          >Web<span class="span-web">Studio</span></a
+        >
+        <ul class="nav-list list">
+          <li class="nav-item">
+            <a class="nav-btn link" href="/index.html">Студия</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-btn link" href="">Портфолио</a>
+          </li>
+          <li class="nav-item"><a class="nav-btn link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="header-list-address">
+      <ul class="header-list-address list">
         <li class="mail">
-          <a href="mailto:info@devstudio.com"></a>info@devstudio.com
+          <a class="mailtel link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li class="tel"><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+        <li class="tel">
+          <a class="mailtel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
@@ -36,18 +47,27 @@
       <div class="main-div-p">
         <!--Панель фильтров-->
         <section class="main-filter-p">
-          <ul class="filter-panel">
-            <li><button class="btn" type="button">Все</button></li>
-            <li><button class="btn" type="button">Веб-сайты</button></li>
-            <li><button class="btn" type="button">Приложения</button></li>
-            <li><button class="btn" type="button">Дизайн</button></li>
-            <li><button class="btn" type="button">Маркетинг</button></li>
+          <h1 hidden>Фильтр проектов</h1>
+          <ul class="filter-panel list">
+            <li><button class="button btn-port" type="button">Все</button></li>
+            <li>
+              <button class="button btn-port" type="button">Веб-сайты</button>
+            </li>
+            <li>
+              <button class="button btn-port" type="button">Приложения</button>
+            </li>
+            <li>
+              <button class="button btn-port" type="button">Дизайн</button>
+            </li>
+            <li>
+              <button class="button btn-port" type="button">Маркетинг</button>
+            </li>
           </ul>
         </section>
         <!--Проекты-->
         <section class="project">
-          <h1 hidden>Проекты</h1>
-          <ul class="project-list">
+          <h2 hidden>Проекты</h2>
+          <ul class="project-list list">
             <li class="project-item">
               <img
                 src="./images/portfolio/tehnocrak.jpg"
@@ -159,20 +179,29 @@
     <!--Контакти-->
     <footer class="footer">
       <div class="footer-div">
-        <a href="/">Web<span class="span-web">Studio</span></a>
+        <a class="logo link" href="/"
+          >Web<span class="span-web">Studio</span></a
+        >
         <address class="address">
           <a
+            class="googlemaps link"
             href="https://goo.gl/maps/HRvNxAX2GYqkhrJAA"
             target="_blank"
             rel="noopener  noreferrer"
             >г. Киев, пр-т Леси Украинки, 26
           </a>
         </address>
-        <ul class="footer-list-address">
+        <ul class="footer-list-address list">
           <li class="mail">
-            <a href="mailto:info@devstudio.com"></a>info@devstudio.com
+            <a class="mail-tel link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="tel"><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+          <li class="tel">
+            <a class="mail-tel link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
     </footer>
