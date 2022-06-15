@@ -172,7 +172,7 @@ color: var(--white-bg-color);
 .benefits-caption {
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--black-color);
@@ -197,7 +197,7 @@ border-radius: 0px 0px 4px 4px;
 .team-name {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
@@ -207,7 +207,7 @@ background-color: var(--white-bg-color);
 .team-job {
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
