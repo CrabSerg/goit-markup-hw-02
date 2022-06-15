@@ -176,7 +176,6 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--black-color);
-
 }
 .benefits-subtitle {
 font-weight: 400;
@@ -213,7 +212,6 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--grey-color)
 }
-
 /* Фотокарты портфолио */
 .project-item {
 box-sizing: border-box;
