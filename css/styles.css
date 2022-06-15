@@ -2,11 +2,11 @@
 /* Шрифт */
 --main-font: "Roboto";
 --secondary-font: "Raleway";
-/* Цвет основного текста (черный) #212121 */
+/* Цвет основного текста (черный) */
 --black-color:#212121;
-/* Вторичный цвет (серый) #757575 */
+/* Вторичный цвет (серый)*/
  --grey-color: #757575;
-/* Белый текст и фон #FFFFFF */
+/* Белый текст и фон */
 --white-bg-color: #ffffff;
 /* Акцент цвета */
 --accent-color: #2196F3;
@@ -142,7 +142,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--grey-color);
 }
 
 /* Сайдбар */
@@ -217,7 +217,7 @@ color: var(--grey-color)
 /* Фотокарты портфолио */
 .project-item {
 box-sizing: border-box;
-background : #FFFFFF;
+background : var(--white-bg-color);
 border: 1px solid #EEEEEE;
 }
 /* Футер */
